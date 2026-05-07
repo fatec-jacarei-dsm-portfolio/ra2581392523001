@@ -1,11 +1,217 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio - JOAO PAULO LORENA DIAS DA SILVA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio :3</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Bem vindo ao Portfólio de JOAO PAULO LORENA DIAS DA SILVA</h1>
+
+    <div class="desktop">
+        <div class="titlebar">
+            <div class="title-icon">JP</div>
+            <span>João Lorena First Homepage - Netscape</span>
+            <div class="window-controls" aria-hidden="true">
+                <button>-</button><button>□</button><button>X</button>
+            </div>
+        </div>
+    </div>
+    <div class="menubar">File Edit View Go Communicator Help</div>
+    <div class="toolbar" aria-label="Barra de ferramentas retrô">
+        <div class="tool"><span class="tool-icon">⌂</span>Home</div>
+        <div class="tool"><span class="tool-icon">🔎</span>Search</div>
+        <div class="tool"><span class="tool-icon">✉</span>Mail</div>
+        <div class="tool"><span class="tool-icon">★</span>Cool</div>
+        <div class="address">
+            <label for="address">Location:</label>
+            <div class="address-box" id="address">http://github.com/jacarei/joao-lorena/portfolio.html</div>
+        </div>
+    </div>
+
+    <main class="page">
+        <aside class="music-player" aria-label="Player decorativo" id="music-player" style="position: absolute; cursor: move;" onmousedown="startDrag(event, this)">
+            <div class="mini-title">Itchy&amp;Scratchy</div>
+            <div class="mini-menu">File Seek Options Help</div>
+            <div class="player-body">
+                <div class="player-logo">LIVE<br>UPDATE</div>
+                <div>
+                    <strong>radio://stream</strong>
+                    <span class="player-time">00:03:01</span>
+                    <div class="player-buttons">◀◀ ❚❚ ■ ▶ ▶▶</div>
+                </div>
+            </div>
+        </aside>
+
+        <div class="lang-toggle" aria-label="Idioma">
+            <button class="lang-btn active" id="btn-pt" onclick="setLang('pt')">PT-BR</button>
+            <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN-US</button>
+        </div>
+
+        <div class="homepage">
+            <h1 class="site-title"><span data-i18n="hero_title">Blog-Portifolio!!!</span> </h1>
+            <div class="enter-sign"><span class="blink">BEM-VINDO!!</span></div>
+            <p class="intro" data-i18n="hero_sub">
+                Bem vindo ao meu BLOG (portfolio) com estilo internet anos 2000. Aqui você vai encontrar meus projetos, stacks, 
+                estudos e outras coisas legais. APROVEITE!!
+            </p>
+
+            <marquee scrollamount="7" data-i18n="marquee">
+                *** Bem-vindo ao meu portfolio! Melhor visto em 800x600, com café e curiosidade por código ***
+            </marquee>
+
+            <nav class="nav-links" aria-label="Seções do portfolio">
+                <a class="retro-btn" href="#skills" data-i18n="nav_skills">Skills</a>
+                <a class="retro-btn" href="#projects" data-i18n="nav_projects">Projetos</a>
+                <a class="retro-btn" href="#about" data-i18n="nav_about">Sobre</a>
+            </nav>
+
+            <div class="counter-row">
+                <span data-i18n="visitors">Você é o visitante nº</span>
+                <span class="counter">0001337</span>
+                <span class="blink">NEW!</span>
+            </div>
+        </div>
+
+        <section class="section" id="skills">
+            <div class="section-title" data-i18n="skills_title">★ Stack &amp; Ferramentas ★</div>
+            <div class="section-body">
+                <div class="skills-grid">
+                    <div class="card">
+                        <h3>Frontend</h3>
+                        <div class="tags"><span class="tag">React</span><span class="tag">TypeScript</span><span
+                                class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Vite</span><span
+                                class="tag">Tailwind</span></div>
+                    </div>
+                    <div class="card">
+                        <h3>Backend</h3>
+                        <div class="tags"><span class="tag">Node.js</span><span class="tag">Express</span><span
+                                class="tag">REST API</span><span class="tag">PostgreSQL</span><span class="tag">SQL
+                                Server</span><span class="tag">Docker</span></div>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="skill_langs">Linguagens</h3>
+                        <div class="tags"><span class="tag">TypeScript</span><span class="tag">Python</span><span
+                                class="tag">Java</span><span class="tag">JavaScript</span><span
+                                class="tag">SQL</span><span class="tag">C#</span></div>
+                    </div>
+                    <div class="card">
+                        <h3>Game Dev</h3>
+                        <div class="tags"><span class="tag">Unity</span><span class="tag">Pygame</span><span
+                                class="tag">Canvas API</span><span class="tag">Java Swing</span><span
+                                class="tag">C#</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-title" data-i18n="projects_title">★ Projetos em Destaque ★</div>
+            <div class="section-body">
+                <div class="projects-grid">
+                    <article class="card">
+                        <h3 data-i18n="p1_name">Chatbot Secretaria Acadêmica</h3>
+                        <p data-i18n="p1_desc">Projeto de TCC: chatbot de autoatendimento para a Secretaria Acadêmica da
+                            Fatec Jacareí. Interface React/TypeScript, API Node.js e PostgreSQL em Docker.</p>
+                        <div class="tags"><span class="tag">React</span><span class="tag">TypeScript</span><span
+                                class="tag">Node.js</span><span class="tag">PostgreSQL</span><span
+                                class="tag">Docker</span></div>
+                    </article>
+
+                    <article class="card">
+                        <h3>AÇOITE - Rope Slayer</h3>
+                        <p data-i18n="p2_desc">Jogo de arena 2D com waves e upgrades. Implementado em HTML/Canvas, Java
+                            Swing e Python Pygame com paridade de features.</p>
+                        <div class="tags"><span class="tag">Python</span><span class="tag">Pygame</span><span
+                                class="tag">Java</span><span class="tag">Canvas API</span></div>
+                    </article>
+
+                    <article class="card">
+                        <h3>REST API - TPI</h3>
+                        <p data-i18n="p3_desc">API REST em TypeScript cobrindo estruturas de dados, interfaces, classes
+                            abstratas, generics e polimorfismo.</p>
+                        <div class="tags"><span class="tag">TypeScript</span><span class="tag">OOP</span><span
+                                class="tag">REST</span><span class="tag">Node.js</span></div>
+                    </article>
+
+                    <article class="card">
+                        <h3 data-i18n="p4_name">Mega-Sena App - Containerizada</h3>
+                        <p data-i18n="p4_desc">App de loteria Mega-Sena containerizada com Docker Compose. Stack
+                            completa: React, Node.js/Express e PostgreSQL.</p>
+                        <div class="tags"><span class="tag">React</span><span class="tag">Docker Compose</span><span
+                                class="tag">Express</span><span class="tag">PostgreSQL</span></div>
+                    </article>
+
+                    <article class="card">
+                        <h3 data-i18n="p5_name">Interface de E-mail (Gates)</h3>
+                        <p data-i18n="p5_desc">Ferramenta interna de envio de e-mails com drag-and-drop de arquivos e
+                            integração com API. Interface HTML/JS com identidade visual corporativa.</p>
+                        <div class="tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span
+                                class="tag">REST API</span><span class="tag">CSS</span></div>
+                    </article>
+
+                    <article class="card">
+                        <h3 data-i18n="p6_name">Game Rating Platform</h3>
+                        <p data-i18n="p6_desc">Conceito de plataforma estilo Letterboxd para avaliação de jogos. Stack
+                            planejada: React + Vite + Tailwind + Supabase + IGDB API.</p>
+                        <div class="tags"><span class="tag">React</span><span class="tag">Supabase</span><span
+                                class="tag">Tailwind</span><span class="tag">IGDB</span><span class="tag">Vite</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-title" data-i18n="about_title">★ Quem sou eu ★</div>
+            <div class="section-body about-grid">
+                <div>
+                    <p data-i18n="about_p1">Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> na Fatec
+                        Jacareí, com foco em desenvolvimento web full-stack e sistemas de software.</p>
+                    <p data-i18n="about_p2">Trabalho em TI com suporte e desenvolvimento de ferramentas internas, do
+                        gerenciamento de bancos SQL Server à criação de interfaces front-end para processos internos.
+                    </p>
+                    <p data-i18n="about_p3">Apaixonado por <strong>gamedev</strong>: já implementei o mesmo jogo em três
+                        linguagens diferentes só por curiosidade.</p>
+                    <p data-i18n="about_p4">Atualmente focado no projeto de TCC, um chatbot de autoatendimento para a
+                        secretaria da faculdade, e em explorar Unity para desenvolvimento de jogos 3D.</p>
+                </div>
+                <ul class="info-list">
+                    <li><strong data-i18n="info_loc_l">Localização</strong><span data-i18n="info_loc_v">Jacareí, SP -
+                            Brasil</span></li>
+                    <li><strong data-i18n="info_edu_l">Formação</strong><span>Fatec Jacareí - ADS</span></li>
+                    <li><strong data-i18n="info_area_l">Área</strong><span data-i18n="info_area_v">Full-stack / Suporte
+                            TI</span></li>
+                    <li><strong data-i18n="info_focus_l">Foco atual</strong><span data-i18n="info_focus_v">TCC Chatbot +
+                            Unity</span></li>
+                    <li><strong data-i18n="info_langs_l">Idiomas</strong><span data-i18n="info_langs_v">Português,
+                            Inglês</span></li>
+                    <li><strong data-i18n="info_int_l">Interesses</strong><span>Game Dev, Web, SQL</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <div class="badges">
+                <span class="badge cyan">HTML 4EVER</span>
+                <span class="badge green">CSS POWERED</span>
+                <span class="badge pink">UNDER CONSTRUCTION</span>
+                <span class="badge">BEST VIEWED 800x600</span>
+            </div>
+            <p data-i18n="footer_txt">© 2026 João Lorena - Todos os direitos livres!!!</p>
+        </footer>
+    </main>
+
+    <div class="statusbar">
+        <div class="status-text" data-i18n="status">Hello and welcome to my portfolio... Don't forget to sign the
+            guestbook!</div>
+        <div class="clock" id="clock">00:37</div>
+    </div>
+
+    <script src="scripts.js"></script>
+
 </body>
+
 </html>
