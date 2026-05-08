@@ -60,7 +60,7 @@ const i18n = {
   en: {
     hero_title: "João's Blog-Portfolio!!!",
     hero_sub: "Hello! This is my BLOG portfolio in 2000s internet mode. Here you will find projects, studies and other cool stuff. ENJOY!!",
-    marquee: "*** Welcome to my portfolio! Best viewed in 800x600***",
+    marquee: "***Welcome to my portfolio! Best viewed in 800x600***",
     nav_skills: "Skills", nav_projects: "Projects", nav_about: "About",
     visitors: "You are visitor number",
     skills_title: "★ Stack & Tools ★",
