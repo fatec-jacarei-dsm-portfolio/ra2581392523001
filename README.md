@@ -8,15 +8,19 @@
 
 🔗 Acesse o Portfólio
 
+
 🎬 Vídeo de Apresentação
 
 📺 Link do vídeo:
+
+
 📚 Projetos Acadêmicos
+
 🌱 AgriRSLAB Portal (1º Semestre)
 
 Projeto desenvolvido no primeiro semestre da FATEC com foco em soluções para o agronegócio.
 
-🔗 https://github.com/thalestcd/ABP-Undefined
+🔗 https://github.com/abpundefined/1DSM-ABP-Undefined
 🏫 Secretaria Acadêmica (2º Semestre)
 
 Sistema acadêmico em desenvolvimento, simulando funcionalidades reais de uma secretaria.
