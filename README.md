@@ -11,8 +11,8 @@ https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523001
 
 🎬 Vídeo de Apresentação
 
-📺 Link do vídeo:
-
+📺 Link do vídeo: 
+https://youtu.be/N2zICl0ASA4
 
 📚 Projetos Acadêmicos
 
