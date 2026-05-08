@@ -3,11 +3,11 @@
 
 📌 R.A: 2581392523001
 📚 Curso: Desenvolvimento de Software Multiplataforma
-📅 Turma: 2º Semestre de 2025
+📅 Turma: 2º Semestre de 2026
 🌐 Portfólio Online
 
 🔗 Acesse o Portfólio
-
+https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523001
 
 🎬 Vídeo de Apresentação
 
