@@ -30,9 +30,12 @@
       font-family: "Times New Roman", Times, serif;
       font-size: 18px;
       cursor: default;
+      background-color: #3f7ed7;
       background-image: url("assets/Wallpaper.jpg");
-      background-size: 1920px 2500px;
-      background-position:initial;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
   }
 
   a { color: var(--link); font-weight: bold; }
@@ -555,7 +558,11 @@
   }
 
   @media (max-width: 760px) {
-    body { font-size: 16px; }
+    body {
+      font-size: 16px;
+      background-attachment: scroll;
+      background-position: center top;
+    }
     .desktop { width: calc(100vw - 8px); margin-top: 4px; box-shadow: none; }
     .music-player { position: static; width: 100%; margin-bottom: 12px; }
     .homepage { margin-top: 0; }
