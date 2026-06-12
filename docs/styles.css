@@ -389,6 +389,16 @@
     gap: 12px;
   }
 
+  .project-category {
+    margin: 22px 0 10px;
+    padding-bottom: 4px;
+    color: var(--win-blue);
+    border-bottom: 2px dashed var(--win-blue);
+    font: bold 22px Arial, sans-serif;
+  }
+
+  .project-category:first-child { margin-top: 0; }
+
   .card {
     padding: 10px;
     background: #ffffcc;
@@ -421,6 +431,21 @@
   .tag:nth-child(2n) { background: #ff99ff; }
   .tag:nth-child(3n) { background: #99ff99; }
 
+  .contribution {
+    padding: 8px;
+    background: #fff;
+    border: 2px dashed #800000;
+  }
+
+  .contribution strong {
+    color: #800000;
+  }
+
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
   .about-grid {
     display: grid;
     grid-template-columns: minmax(0, 1.3fr) minmax(220px, .7fr);
@@ -446,6 +471,36 @@
   }
 
   .info-list strong { color: #000080; }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px;
+    color: #000;
+    background: #ffffcc;
+    border: 3px solid;
+    border-color: var(--win-light) var(--win-dark) var(--win-dark) var(--win-light);
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+  }
+
+  .contact-card strong {
+    color: var(--win-blue);
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .contact-card:hover {
+    color: #000;
+    background: var(--yellow);
+  }
 
   footer {
     margin-top: 28px;
